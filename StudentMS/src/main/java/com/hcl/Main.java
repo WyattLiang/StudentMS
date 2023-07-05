@@ -27,10 +27,11 @@ public class Main {
                         studentManagementSystem.displayStudentInfo();
                         break;
                     case 3:
+                        System.out.println("Exit program.");
                         System.exit(0);
                         break;
                     default:
-                        System.out.println("No such a option.");
+                        System.out.println("No such an option.");
                 }
             }catch (InputMismatchException e){
                 System.out.println("Please enter correct input.");
