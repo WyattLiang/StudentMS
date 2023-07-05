@@ -71,7 +71,7 @@ public class Student {
 
 
     public int calculateTotalMarks(){
-        return science+math+english;
+        return (science+math+english)/3;
     }
 
     public String calculateGrade(){
